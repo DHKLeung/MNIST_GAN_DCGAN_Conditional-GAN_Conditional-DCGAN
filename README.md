@@ -1,18 +1,24 @@
 # MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN
 
-**** Cost/Loss over iterations are presented in jupyter notebooks ****
-
 ## Generative Adversarial Networks
-![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/MNIST_GAN_samples/evolution.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/GAN.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/GAN.png?raw=true)
 
 ## Conditional Generative Adversarial Networks
-![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/MNIST_Conditional-GAN_samples/evolution.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cGAN.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cGAN.png?raw=true)
+
+For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper 
+https://arxiv.org/pdf/1511.06434.pdf
+According to Ian Goodfellow in NIPS2016, convergence doesn't mean the good generating performance. DCGANs shows it.
 
 ## Deep Convolutioinal Generative Adversarial Networks
-![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/MNIST_DCGAN_samples/evolution.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/DCGAN.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/DCGAN.png?raw=true)
 
 ## Deep Convolutioinal Conditional Generative Adversarial Networks
-![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/MNIST_Conditional-DCGAN_samples/evolution.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.gif?raw=true)
+![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.png?raw=true)
 
 ## Development Environment
 * Ubuntu 14
@@ -26,5 +32,4 @@
 
 ## Tricks
 * Adjusting learning rate seperately for Discriminator and Generator
-* Accourding to Ian Goodfellow on NIPS 2016, sometimes convergence doesn't mean good generating performance, and this shown in DCGAN
 * Label Smoothing
