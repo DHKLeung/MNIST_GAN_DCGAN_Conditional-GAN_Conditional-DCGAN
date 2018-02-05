@@ -16,7 +16,7 @@
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.png?raw=true)
 
-For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper 
+For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper.
 https://arxiv.org/pdf/1511.06434.pdf
 According to Ian Goodfellow in NIPS2016, convergence doesn't mean the good generating performance. DCGANs shows it.
 
