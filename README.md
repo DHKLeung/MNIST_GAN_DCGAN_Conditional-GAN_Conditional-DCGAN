@@ -1,5 +1,14 @@
 # MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN
 
+For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper. https://arxiv.org/pdf/1511.06434.pdf
+
+According to Ian Goodfellow in NIPS2016, convergence doesn't mean the good generating performance. DCGANs showed it.
+
+The parameters and model of Conditional-DCGAN were saved in the foler "Conditional-DCGAN_Generator". They are in zip with segmentation because of the upload limit in GitHub, just extract "model_parameters_ckpt.zip". Afterthat, run the the Jupyter Notebook "MNIST_Conditioinal-DCGAN_Generator.ipynb" and it will retrieve the parameters. The demo of using the generator is shown in the notebook. Feel free to alter the code and generate what you want.
+
+Trained Conditional-DCGAN output demo:
+![](https://raw.githubusercontent.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/master/img_for_readme/trained_generator.jpg)
+
 ## Generative Adversarial Networks
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/GAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/GAN.png?raw=true)
@@ -15,15 +24,6 @@
 ## Deep Convolutioinal Conditional Generative Adversarial Networks
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.png?raw=true)
-
-For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper. https://arxiv.org/pdf/1511.06434.pdf
-
-According to Ian Goodfellow in NIPS2016, convergence doesn't mean the good generating performance. DCGANs showed it.
-
-The parameters and model of Conditional-DCGAN were saved in the foler "Conditional-DCGAN_Generator". They are in zip with segmentation because of the upload limit in GitHub, just extract "model_parameters_ckpt.zip". Afterthat, run the the Jupyter Notebook "MNIST_Conditioinal-DCGAN_Generator.ipynb" and it will retrieve the parameters. The demo of using the generator is shown in the notebook. Feel free to alter the code and generate what you want.
-
-Trained Conditional-DCGAN output demo:
-![](https://raw.githubusercontent.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/master/img_for_readme/trained_generator.jpg)
 
 ## Development Environment
 * Ubuntu 14
