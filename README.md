@@ -4,7 +4,10 @@ For DCGANs, they are implemented nearly the same as mentioned in the DCGAN paper
 
 According to Ian Goodfellow in NIPS2016, convergence doesn't mean the good generating performance. DCGANs showed it.
 
-The parameters and model of Conditional-DCGAN were saved in the folder "Conditional-DCGAN_Generator". They are in zip with segmentations because of the upload limit in GitHub, just extract "model_parameters_ckpt.zip". Afterthat, run the the Jupyter Notebook "MNIST_Conditioinal-DCGAN_Generator.ipynb" and it will retrieve the parameters. The demo of using the generator is shown in the notebook. Feel free to alter the code and generate what you want.
+The parameters and model of Conditional-DCGAN were saved in the folder "Trained_C-DCGAN_Generator". They are in parts because of the upload limit in GitHub. However, since the files of model saved can't be split using ```$zip -s``` linux command and I don't know why. So I zip the whole files and use old school command ```split -b 99M``` to do that.
+
+## How to use the trained Conditional-DCGAN Generator
+If you are in Linux, use the command ```cat model_parameters_ckpt.zip.part* > model_parameters_ckpt.zip``` to assemble them. If you are in Windows, please use Git Bash and type the same command mentioned.Afterthat, run the the Jupyter Notebook "MNIST_Conditioinal-DCGAN_Generator.ipynb" and it will retrieve the parameters. The demo of using the generator is shown in the notebook. Feel free to alter the code and generate what you want.
 
 Trained Conditional-DCGAN output demo:
 ![](https://raw.githubusercontent.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/master/img_for_readme/trained_generator.jpg)
@@ -26,7 +29,7 @@ Trained Conditional-DCGAN output demo:
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.png?raw=true)
 
 ## Development Environment
-* Ubuntu 14
+* Ubuntu 16.04
 * Jupyter Notebook
 * TensorFlow(GPU) 1.4.1
 * NumPy 1.14.0
