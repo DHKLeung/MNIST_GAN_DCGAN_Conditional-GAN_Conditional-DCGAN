@@ -17,11 +17,11 @@ Trained Conditional-DCGAN output demo:
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cGAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cGAN.png?raw=true)
 
-## Deep Convolutioinal Generative Adversarial Networks
+## Deep Convolutional Generative Adversarial Networks
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/DCGAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/DCGAN.png?raw=true)
 
-## Deep Convolutioinal Conditional Generative Adversarial Networks
+## Conditional Deep Convolutional Generative Adversarial Networks
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.gif?raw=true)
 ![](https://github.com/DHKLeung/MNIST_GAN_DCGAN_Conditional-GAN_Conditional-DCGAN/blob/master/img_for_readme/cDCGAN.png?raw=true)
 
